@@ -1,7 +1,11 @@
-import { useState } from "react";
+import MapboxMap from "./components/MapboxMap";
 
 function App() {
-  return <>inicio de proyecto</>;
+  return (
+    <>
+      <MapboxMap />
+    </>
+  );
 }
 
 export default App;
